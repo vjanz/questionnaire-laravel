@@ -19,11 +19,11 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-//QuestionsController
+//QuestionnaireController
 Route::get('/questionnaires','QuestionnaireController@index');
 Route::get('/questionnaires/create','QuestionnaireController@create');
 Route::post('/questionnaires','QuestionnaireController@store');
-Route::get('/questionnaires/{questionnaire}','QuestionnaireController@show');
+Route::get('/questionnaires/{id}','QuestionnaireController@show');
 
 
 //Questions
@@ -36,3 +36,7 @@ Route::DELETE('/questionnaires/{questionnaire}/questions/{question}','QuestionCo
 
 Route::get('surveys/{questionnaire}-{slug}','SurveyController@show');
 Route::post('surveys/{questionnaire}-{slug}','SurveyController@store');
+
+Route::resource('photos', 'PhotoController');
+
+

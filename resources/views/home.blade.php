@@ -14,12 +14,12 @@
                         </div>
                     @endif
 
-                    <a href="/questionnaires/create" class="btn btn-dark">Krijo nje pyetsorë të ri</a>
+                    <a href="/questionnaires/create" class="btn btn-dark">Create a new Questionnaire</a>
                 </div>
             </div>
 
             <div class="card mt-4">
-                <div class="card-header">Pyetsorët e mi</div>
+                <div class="card-header">My Questionnaires</div>
 
                 <div class="card-body">
                     <ul class="list-group">
@@ -28,7 +28,7 @@
                                 <a href="{{ $questionnaire->path() }}">{{ $questionnaire->title }}</a>
 
                                 <div class="mt-2">
-                                    <small class="font-weight-bold">Shperndaje URL</small>
+                                    <small class="font-weight-bold">Share URL</small>
                                     <p>
                                         <a href="{{ $questionnaire->publicPath() }}">
                                             {{ $questionnaire->publicPath() }}

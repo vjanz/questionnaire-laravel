@@ -9,6 +9,9 @@ class Questionnaire extends Model
 {
     protected $guarded = [];
 
+
+
+
     function path(){
         return url('/questionnaires/'. $this->id);
     }
@@ -31,5 +34,10 @@ class Questionnaire extends Model
     public function surveys()
     {
         return $this->hasMany(Survey::class);
+    }
+
+    public function test(){
+        $this->belongsTo(Test::class);
+
     }
 }

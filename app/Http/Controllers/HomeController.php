@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Question;
+use App\Test;
 use Illuminate\Http\Request;
 use App\Questionnaire;
 class HomeController extends Controller
@@ -15,6 +17,8 @@ class HomeController extends Controller
     {
         $this->middleware('auth');
     }
+
+
 
     /**
      * Show the application dashboard.

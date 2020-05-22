@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Miresevini ne <br> UBT-Questionnaire 
+                    Welcome in Questionnaire
                 </div>
 
                 <div class="links">

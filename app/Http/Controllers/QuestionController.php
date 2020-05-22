@@ -18,14 +18,12 @@ class QuestionController extends Controller
             'question.question' => 'required',
             'answers.*.answer' => 'required'
         ]);
-        // $question =$questionnaire->questions()->create($data['question']);
-        // $question->answer()->createMany($data['answers']);
         $question = $questionnaire->questions()->create($data['question']);
         $question->answers()->createMany($data['answers']);
         return redirect('/questionnaires/'.$questionnaire->id);
     }
 
-    
+
 
     public function destroy(Questionnaire $questionnaire,Question $question){
         //delete all questions from
@@ -34,7 +32,7 @@ class QuestionController extends Controller
 
         return redirect($questionnaire->path());
 
-    
+
 
     }
 }
