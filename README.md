@@ -42,4 +42,4 @@ Enjoy:)
 
 <br>
 For any question, don't hesitate to contact:<br>
-LinkedIn - [Profile](https://www.linkedin.com/in/valon-januzaj-b02692187/)
+LinkedIn - https://www.linkedin.com/in/valon-januzaj-b02692187/
