@@ -4,7 +4,7 @@ Simple quesitonnaire made with laravel and bootstrap <br>
 The focus is not on the views, the focus is in best practices in laravel <br>
 and usage of most important functions in laravel.
 
-##Usage<br>
+## Usage<br>
 <br>
 Clone the project:<br>
 
@@ -13,28 +13,26 @@ Clone the project:<br>
 git clone https://github.com/vjanz/questionnaire-laravel.git
 ```
 
-###Install dependencies
+### Install dependencies
 
 ```php
 composer install
 ```
-
+### Update .env
 Copy .env_example, and create a new one (.env)<br>
-###Update .env
-
 Update database credentials
 
-###Generate key:
+### Generate key:
 ```php
 php artisan key:generate
 ```
 
-###Run migrations
+### Run migrations
 ```php
 php artisan migrate:fresh
 ```
 
-###Start server
+### Start server
 ```
 php artisan serve
 ```
