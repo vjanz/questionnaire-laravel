@@ -6,7 +6,7 @@ and usage of most important functions in laravel.
 
 ## Usage<br>
 <br>
-Clone the project:<br>
+Clone the project:<br>.
 
 
 ```
