@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: questionnaire-laravel
+  annotations:
+    github.com/project-slug: vjanz/questionnaire-laravel
+spec:
+  type: other
+  lifecycle: unknown
+  owner: guests
